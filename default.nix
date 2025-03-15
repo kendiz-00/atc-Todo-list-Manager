@@ -10,5 +10,5 @@ pkgs.haskellPackages.developPackage {
   executable = {
     mainModule = "Main.hs";
   };
-  buildInputs = [ pkgs.ghc pkgs.cabal-install ];
+  buildInputs = [ pkgs.ghc pkgs.cabal-install pkgs.haskellPackages.HUnit ];
 }
